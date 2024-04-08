@@ -1,0 +1,62 @@
+div {
+    @apply h-fit
+}
+
+.hide-at-mobile {
+    @apply hidden md:flex
+}
+
+.header--container{
+    @apply flex justify-between items-center md:items-end px-7 md:px-14 py-1 md:py-2 pt-2 md:pt-4 h-fit border-2 border-red-600 
+}
+
+.left {
+    @apply flex w-1/5
+}
+
+.brand--logo {
+    @apply text-red-600 text-lg font-bold
+}
+
+.middle {
+    @apply hide-at-mobile flex w-3/5 gap-x-4 justify-center
+}
+
+.category--btn {
+    @apply px-4 py-2 bg-black text-white text-sm font-semibold flex gap-x-2 items-center rounded-md
+}
+
+.category--icon {
+    @apply text-white font-bold
+}
+
+.search--box {
+    @apply border rounded-md w-full px-4 flex items-center justify-around
+}
+
+.search--input {
+    @apply w-full focus:outline-none py-2 text-sm
+}
+
+.header--icon {
+    @apply text-gray-400 ml-4
+}
+
+.right{
+    @apply flex
+}
+.sign--btn{
+    @apply hide-at-mobile px-4 py-2 text-gray-400 text-sm font-semibold flex gap-x-2 items-center border-2 rounded-md hover:bg-gray-200 focus:bg-gray-300
+}
+.fav--btn{
+    @apply hide-at-mobile px-4 py-2 text-gray-400 text-sm font-semibold flex gap-x-2 items-center  
+}
+
+.visible-at-mobile {
+    @apply flex md:hidden 
+}
+
+.right .right--features {
+    @apply justify-center gap-x-1 md:gap-x-2
+}
+
