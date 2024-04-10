@@ -1,0 +1,16 @@
+.recommend--container { /* Content width adjusts automatically */
+  overflow-x: scroll; /* Apply scroll to container */
+  white-space: nowrap; /* Prevent content wrapping */
+  margin: 0 auto; /* Center content horizontally */
+  overflow-y: hidden;
+  max-width: 99vw;
+  padding-left: 7rem;
+}
+
+.recommend--list {
+    @apply inline-flex gap-x-7 
+}
+
+.recommend--container::-webkit-scrollbar {
+  display: none;
+}

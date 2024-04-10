@@ -1,0 +1,17 @@
+.nav--container {
+    @apply flex gap-x-4 md:gap-x-7 text-gray-400 font-semibold text-sm overflow-x-scroll whitespace-nowrap md:whitespace-normal scroll-smooth
+}
+
+.nav--item {
+    @apply cursor-pointer hover:text-red-500
+}
+
+.nav--container::-webkit-scrollbar {
+    display: none;
+}
+
+.nav--container {
+    -ms-overflow-style: none;
+}
+
+

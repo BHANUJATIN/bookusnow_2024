@@ -1,0 +1,12 @@
+.navbar--container {
+    @apply flex flex-col md:flex-row py-1 md:pt-0 md:pb-2
+}
+
+.location--section {
+    @apply w-full md:w-[30%] pl-6 md:pl-10 mb-3 -mt-3 md:mb-0 md:-mt-0
+}
+
+.nav--section {
+    @apply pl-7 mr-2 md:px-0 
+}
+

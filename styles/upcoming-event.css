@@ -1,0 +1,19 @@
+.upcoming--section {
+    @apply mt-7 w-[90vw]
+}
+
+.upcoming-grid--container {
+    @apply flex justify-center w-full
+}
+
+.upcoming--list {
+    @apply flex flex-wrap gap-y-9 gap-x-5 max-h-[100vh] overflow-y-scroll whitespace-nowrap pl-28
+}
+
+.list--heading {
+    @apply ml-28
+}
+
+.upcoming--list::-webkit-scrollbar {
+    display: none;
+  }

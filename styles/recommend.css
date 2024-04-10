@@ -1,0 +1,11 @@
+.recommend--section {
+  @apply w-full -mt-[25%] md:-mt-[10%] z-40 text-gray-300 flex flex-col items-start;
+}
+
+.list--heading {
+  @apply text-xl font-semibold mb-2 md:mb-4 flex w-full gap-x-4 items-center z-40;
+}
+
+.list--heading .right-arrow--icon {
+  @apply w-8;
+}

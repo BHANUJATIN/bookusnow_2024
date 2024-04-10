@@ -1,0 +1,43 @@
+.event--container {
+    @apply border-2 w-[18em] md:w-[22em] px-2 py-3 rounded-xl flex flex-col h-fit;
+  }
+  
+  .image--box {
+    @apply mb-2 md:mb-4;
+  }
+  
+  .event--img {
+    @apply w-full;
+  }
+  
+  .content--box {
+    @apply px-2 w-full;
+  }
+  
+  .event--name {
+    @apply text-lg font-semibold;
+  }
+  
+  .event--details {
+    @apply block
+  }
+  
+  .event--location {
+    @apply flex items-center justify-start gap-x-1 text-gray-500 text-sm;
+  }
+  
+  .event--location--icon {
+    @apply w-3 md:w-5
+  }
+  
+  .event--weather--distance--box {
+    @apply flex items-center justify-end w-full text-sm;
+  }
+  
+  .weather--box {
+    @apply mr-2;
+  }
+  
+  .event--content {
+    @apply flex w-full text-gray-500 items-center justify-evenly pr-2 mb-2
+  }
