@@ -3,18 +3,13 @@
 }
 
 .location--section {
-<<<<<<< HEAD
     @apply w-full md:w-[30%] pl-6 md:pl-10 mb-3 -mt-2 md:mb-0 md:-mt-0
-=======
-    @apply w-full md:w-[30%] pl-6 md:pl-10 mb-3 -mt-3 md:mb-0 md:-mt-0
->>>>>>> 3d2b0cd0c4ce8e828e058f6050b4ea32ce112a70
 }
 
 .nav--section {
     @apply pl-7 mr-2 md:px-0 
 }
 
-<<<<<<< HEAD
 
 .navbar-location--container {
     @apply text-gray-500 text-sm font-semibold
@@ -23,5 +18,3 @@
     @apply md:mx-2
 }
 
-=======
->>>>>>> 3d2b0cd0c4ce8e828e058f6050b4ea32ce112a70
