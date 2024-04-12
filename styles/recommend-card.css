@@ -1,0 +1,30 @@
+.recommend-card--container {
+  @apply w-[55vw] md:w-[19vw] z-[99] relative rounded-lg h-fit flex flex-col items-center;
+}
+
+
+.recommend--event--details {
+  @apply w-full absolute bottom-1 text-gray-200 z-50 flex flex-col items-center content-end h-1/5 text-[0.6rem] -mb-2 md:-mb-5 px-2 md:px-4;
+}
+
+.event--details--box {
+  @apply w-full flex items-end justify-between ;
+}
+
+
+.recommend-card--container .event--name {
+    @apply text-sm font-semibold
+}
+
+.recommend-card--container .event--location {
+  @apply w-full flex items-baseline gap-x-1 text-gray-300 text-[0.6rem];
+}
+
+.recommend-card--container .event--location--icon {
+  @apply w-4;
+}
+
+.recommend-card--container .weather--distance--box {
+    @apply w-full flex justify-end text-[0.6rem]  
+  }
+  

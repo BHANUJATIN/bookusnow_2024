@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply overflow-x-hidden
+}
+
 .icon {
   @apply w-5 md:w-5
 }

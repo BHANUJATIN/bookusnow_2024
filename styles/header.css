@@ -7,7 +7,7 @@ div {
 }
 
 .header--container{
-    @apply flex justify-between items-center md:items-end px-7 md:px-14 py-1 md:py-2 pt-2 md:pt-4 h-fit border-2 border-red-600 
+    @apply flex justify-between items-center md:items-end px-7 md:px-14 py-1 md:py-2 pt-2 md:pt-4 h-fit 
 }
 
 .left {

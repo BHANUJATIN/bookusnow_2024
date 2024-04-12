@@ -1,0 +1,15 @@
+.upcoming--section {
+    @apply mt-7 mb-2 pb-2 w-full flex flex-col items-center
+}
+
+.upcoming-grid--container {
+    @apply flex justify-center w-full
+}
+
+.upcoming--list {
+    @apply flex flex-wrap w-10/12 gap-y-9 gap-x-5 h-full max-h-[100vh] overflow-y-scroll whitespace-nowrap
+}
+
+.upcoming--list::-webkit-scrollbar {
+    display: none;
+  }

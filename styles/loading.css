@@ -1,0 +1,28 @@
+/* styles.css */
+.status {
+  @apply max-w-sm p-4 border border-gray-200 rounded shadow animate-pulse md:p-6 dark:border-gray-700;
+}
+
+.bg-primary {
+  @apply bg-gray-300 rounded dark:bg-gray-700;
+}
+
+.text-primary {
+  @apply text-gray-200 dark:text-gray-600;
+}
+
+.bar {
+  @apply h-2.5 bg-gray-200 rounded-full dark:bg-gray-700;
+}
+
+.bar-short {
+  @apply h-2 bg-gray-200 rounded-full dark:bg-gray-700;
+}
+
+.flex-center {
+  @apply flex items-center;
+}
+
+.loading-icon {
+  @apply w-10 h-10 me-3 text-gray-200 dark:text-gray-700;
+}

@@ -1,0 +1,28 @@
+
+
+.banner--container {
+    @apply z-20 relative w-full h-full flex justify-center
+}
+
+.banner--img {
+    @apply w-screen h-[100vh] object-cover
+}
+
+.banner--content {
+    @apply absolute text-center top-1/4 text-white z-30 self-center flex flex-col items-center
+
+}
+
+.banner--heading {
+    @apply text-2xl md:text-5xl font-semibold text-white flex justify-center w-11/12 md:w-10/12 
+}
+
+.banner--heading h1 {
+    @apply mb-4 md:mb-6 md:w-4/5 leading-9 md:leading-[4rem]
+    
+}
+
+
+.banner--para {
+    @apply w-11/12 md:w-3/4 flex flex-col justify-center items-center p-2 leading-8
+}

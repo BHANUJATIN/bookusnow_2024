@@ -1,0 +1,38 @@
+.recommend--section {
+  @apply w-full -mt-[25%] md:-mt-[10%] z-40 text-gray-300 flex flex-col mb-4 items-center;
+}
+
+.list--heading {
+  @apply text-xl font-semibold mb-2 md:mb-4 flex justify-between gap-x-4 z-40 w-10/12 content-center;
+}
+
+.right-arrow--icon {
+  @apply ml-3 md:ml-4
+}
+
+.see-all--btn {
+  @apply text-sm underline
+}
+
+.list--heading .right-arrow--icon {
+  @apply w-8;
+}
+
+.recommend--container { /* Content width adjusts automatically */
+  overflow-x: scroll; /* Apply scroll to container */
+  white-space: nowrap; /* Prevent content wrapping */
+  margin: 0 auto; /* Center content horizontally */
+  overflow-y: hidden;
+  max-width: 100%;
+  @apply pl-8 md:pl-24
+}
+
+
+
+.recommend--list {
+    @apply inline-flex gap-x-7 
+}
+
+.recommend--container::-webkit-scrollbar {
+  display: none;
+}

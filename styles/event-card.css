@@ -1,0 +1,47 @@
+.event--container {
+    @apply border-2 w-[20em] md:w-[22em] px-2 py-3 rounded-xl flex flex-col h-fit;
+  }
+  
+  .image--box {
+    @apply mb-6 md:mb-8;
+  }
+  
+  .event--img {
+    @apply w-full -z-10;
+  }
+  
+  .content--box {
+    @apply px-2 w-full;
+  }
+  
+  .event--name {
+    @apply text-base md:text-lg font-semibold flex-wrap flex w-11/12 mb-1 md:mb-2;
+  }
+  
+  .content--box {
+    @apply block
+  }
+  
+  .event--location {
+    @apply flex items-center justify-start gap-x-1 text-gray-500 text-sm;
+  }
+  
+  .event--location--icon {
+    @apply w-5 md:w-7
+  }
+  
+  .event--weather--distance--box {
+    @apply flex items-center justify-end w-full text-sm;
+  }
+  
+  .weather--box {
+    @apply mr-1 border-r-2 border-gray-400 pr-1;
+  }
+  
+  .event--content {
+    @apply flex w-full text-gray-500 items-center justify-evenly pr-2 mb-2
+  }
+
+  .upcoming-event--date {
+    @apply relative bottom-0 bg-black text-white text-base z-20 rounded-b-lg p-2 -mt-10 opacity-75
+  }
