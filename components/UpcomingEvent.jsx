@@ -21,11 +21,9 @@ const UpcomingEvent = () => {
       try {
         setLoading(true);
         const response = await makeRequest(
-          "https://gg-backend-assignment.azurewebsites.net/api/Events",
           {
             page: currentPage,
             type: "upcoming",
-            code: process.env.NEXT_AUTH_CODE,
           }
         );
         setEvents((prevEvents) => [...prevEvents, ...response.events]);

@@ -16,11 +16,10 @@ const Recommend = () => {
       try {
         setLoading(true);
         const response = await makeRequest(
-          "https://gg-backend-assignment.azurewebsites.net/api/Events",
           {
             page: 1,
             type: "reco",
-            code: process.env.NEXT_AUTH_CODE, // Add the code parameter here
+            
           }
         );
         setRecommendedEvents(response.events);
