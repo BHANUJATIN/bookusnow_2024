@@ -1,4 +1,5 @@
 .recommend--section {
+<<<<<<< HEAD
   @apply w-full -mt-[25%] md:-mt-[10%] z-40 text-gray-300 flex flex-col mb-4 items-center;
 }
 
@@ -12,11 +13,19 @@
 
 .see-all--btn {
   @apply text-sm underline
+=======
+  @apply w-full -mt-[25%] md:-mt-[10%] z-40 text-gray-300 flex flex-col items-start;
+}
+
+.list--heading {
+  @apply text-xl font-semibold mb-2 md:mb-4 flex w-full gap-x-4 items-center z-40;
+>>>>>>> 3d2b0cd0c4ce8e828e058f6050b4ea32ce112a70
 }
 
 .list--heading .right-arrow--icon {
   @apply w-8;
 }
+<<<<<<< HEAD
 
 .recommend--container { /* Content width adjusts automatically */
   overflow-x: scroll; /* Apply scroll to container */
@@ -36,3 +45,5 @@
 .recommend--container::-webkit-scrollbar {
   display: none;
 }
+=======
+>>>>>>> 3d2b0cd0c4ce8e828e058f6050b4ea32ce112a70

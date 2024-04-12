@@ -1,5 +1,9 @@
 .nav--container {
+<<<<<<< HEAD
     @apply flex gap-x-6 md:gap-x-7 text-gray-500 font-semibold text-sm overflow-x-scroll whitespace-nowrap md:whitespace-normal scroll-smooth
+=======
+    @apply flex gap-x-4 md:gap-x-7 text-gray-400 font-semibold text-sm overflow-x-scroll whitespace-nowrap md:whitespace-normal scroll-smooth
+>>>>>>> 3d2b0cd0c4ce8e828e058f6050b4ea32ce112a70
 }
 
 .nav--item {

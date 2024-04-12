@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use client";
 
 import { useState, useEffect, useRef } from "react";
@@ -82,6 +83,38 @@ const UpcomingEvent = () => {
           {loading && <Loading />}
         </div>
       </div>
+=======
+import React from "react";
+import RecommendCard from "./cards/RecommendCard";
+import "@/styles/upcoming-event.css";
+import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
+import HorizontalCardScroll from "./HorizontalCardScroll";
+import EventCard from "./cards/EventCard";
+
+
+const UpcomingEvent = () => {
+  return (
+    <div className="upcoming--section">
+      <div className="list--heading">
+        Recommended Shows <ArrowLongRightIcon className="right-arrow--icon" />
+      </div>
+    
+    <div className="upcoming-grid--container">
+        <div className="upcoming--list">
+            <EventCard/>
+            <EventCard/>
+            <EventCard/>
+            <EventCard/>
+            <EventCard/>
+            <EventCard/>
+            <EventCard/>
+            <EventCard/>
+            <EventCard/>
+            
+        </div>
+    </div>
+      
+>>>>>>> 3d2b0cd0c4ce8e828e058f6050b4ea32ce112a70
     </div>
   );
 };

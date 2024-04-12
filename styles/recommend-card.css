@@ -1,5 +1,9 @@
 .recommend-card--container {
+<<<<<<< HEAD
   @apply w-[55vw] md:w-[19vw] z-[99] relative rounded-lg h-fit flex flex-col items-center;
+=======
+  @apply w-[55vw] md:w-[19vw] z-20 relative rounded-lg h-fit flex flex-col items-center;
+>>>>>>> 3d2b0cd0c4ce8e828e058f6050b4ea32ce112a70
 }
 
 
@@ -13,6 +17,7 @@
 
 
 .recommend-card--container .event--name {
+<<<<<<< HEAD
     @apply text-sm font-semibold
 }
 
@@ -22,6 +27,17 @@
 
 .recommend-card--container .event--location--icon {
   @apply w-4;
+=======
+    @apply text-base font-semibold
+}
+
+.recommend-card--container .event--location {
+  @apply w-full flex items-baseline gap-x-1 text-gray-300;
+}
+
+.recommend-card--container .event--location--icon {
+  @apply w-3;
+>>>>>>> 3d2b0cd0c4ce8e828e058f6050b4ea32ce112a70
 }
 
 .recommend-card--container .weather--distance--box {

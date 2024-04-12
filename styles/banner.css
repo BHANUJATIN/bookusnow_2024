@@ -14,15 +14,27 @@
 }
 
 .banner--heading {
+<<<<<<< HEAD
     @apply text-2xl md:text-5xl font-semibold text-white flex justify-center w-11/12 md:w-10/12 
 }
 
 .banner--heading h1 {
     @apply mb-4 md:mb-6 md:w-4/5 leading-9 md:leading-[4rem]
     
+=======
+    @apply text-3xl md:text-6xl font-semibold text-white p-4 md:p-0 flex justify-center
+}
+
+.banner--heading h1 {
+    @apply mb-4 md:mb-6 md:w-4/5
+>>>>>>> 3d2b0cd0c4ce8e828e058f6050b4ea32ce112a70
 }
 
 
 .banner--para {
+<<<<<<< HEAD
     @apply w-11/12 md:w-3/4 flex flex-col justify-center items-center p-2 leading-8
+=======
+    @apply w-3/4
+>>>>>>> 3d2b0cd0c4ce8e828e058f6050b4ea32ce112a70
 }
