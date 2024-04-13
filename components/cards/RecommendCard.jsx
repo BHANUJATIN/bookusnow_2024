@@ -7,8 +7,7 @@ import extractDriveUrl from "@/utils/extractDriverUrl";
 import roundDistance from "@/utils/roundDistance";
 import formatWeather from "@/utils/formatWeather";
 
-const RecommendCard = ({event}) => {
-  
+const RecommendCard = ({ event }) => {
   return (
     <div className="recommend-card--container">
       <img
@@ -16,6 +15,7 @@ const RecommendCard = ({event}) => {
         src={extractDriveUrl(event.imgUrl)}
         alt="event image"
         className="recommend-card--img"
+        loading="lazy"
       />
       <div className="recommend--event--details">
         <div className="event--details--box">

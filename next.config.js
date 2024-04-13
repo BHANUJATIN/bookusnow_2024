@@ -1,5 +1,12 @@
 module.exports = {
     images: {
-        domains: ["drive.google.com"],
+        remotePatterns: [
+          {
+            protocol: 'https',
+            hostname: 'drive.lienuc.com',
+            port: '',
+            pathname: '/*',
+          },
+        ],
       },
   }

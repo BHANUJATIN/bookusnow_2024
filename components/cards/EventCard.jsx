@@ -15,6 +15,7 @@ const EventCard = ({event}) => {
           src={extractDriveUrl(event.imgUrl)}
           alt="event image"
           className="event--img"
+          loading="lazy"
         />
         <div className="upcoming-event--date">{formatDate(event.date)}</div>
       </div>
