@@ -1,23 +1,20 @@
 "use client";
 import React from "react";
-import { useScreen } from "usehooks-ts";
 import Image from "next/image";
 import BannerImage from "@/public/images/Banner.svg";
 import '@/styles/banner.css'
 
 const Banner = () => {
-  const screen = useScreen();
+  
 
   return (
     <div className="banner--container">
-      {console.log(screen)}
+      
       {/* <div>{screen}</div> */}
       <Image
         className="banner--img"
         src={BannerImage}
         alt="Banner Image"
-        width={screen.availWidth}
-        
       />
 
       <div className="banner--content">
