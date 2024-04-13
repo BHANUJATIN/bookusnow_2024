@@ -3,15 +3,15 @@
 }
 
 .list--heading {
-  @apply text-xl font-semibold mb-2 md:mb-4 flex justify-between gap-x-4 z-40 w-10/12 content-center;
+  @apply text-lg md:text-xl font-semibold mb-2 md:mb-4 flex justify-between gap-x-4 z-40 w-10/12 content-center items-center;
 }
 
 .right-arrow--icon {
-  @apply ml-3 md:ml-4
+  @apply ml-3 md:ml-4 
 }
 
 .see-all--btn {
-  @apply text-sm underline
+  @apply text-xs md:text-sm underline
 }
 
 .list--heading .right-arrow--icon {

@@ -38,7 +38,7 @@ Event data is fetched from two provided APIs:
 - **Color Scheme:** The color scheme consists of primarily neutral colors with accents of red for branding. Font colors are chosen to ensure readability and contrast.
 
 ## Hosted Link
-The live site is hosted on [Netlify](https://www.netlify.com/), and you can access it [here](https://your-live-site-url.com).
+The live site is hosted on [Netlify](https://www.netlify.com/), and you can access it [bookusnow-2024](https://bookusnow-2024.vercel.app/).
 
 Feel free to explore the live site to see upcoming and recommended events!
 
